@@ -31,7 +31,7 @@ Angular.JS wrapper for Google's No CAPTCHA reCAPTCHA. See demo at [http://codedi
 1. (Optional step) Set default options for noCAPTCHA 
     ```javascript
     angular.module('myApp')
-      .config(['noCAPTCHAProvider', function (noCaptchaProvider) {
+      .config(['noCAPTCHAProvider', function (noCAPTCHAProvider) {
         noCaptchaProvider.setSiteKey('<your site key>');
         noCaptchaProvider.setTheme('dark');
       }
